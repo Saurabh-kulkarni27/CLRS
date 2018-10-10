@@ -13,4 +13,6 @@ Sources to learn and practise:
 2) Cracking coding Inteview (most frequent interview questions)
 3) Sites like Leetcode, GeeksForGeeks, Hackerank
 
+I will be updating this repository with problems related to topics mentioned above in Python language.
+
 
