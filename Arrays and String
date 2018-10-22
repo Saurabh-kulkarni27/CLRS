@@ -1,0 +1,51 @@
+'''
+Question source: leetcode
+Given an array A of non-negative integers, return an array consisting of all the even elements of A, 
+followed by all the odd elements of A.
+
+You may return any answer array that satisfies this condition.
+
+ 
+
+Example 1:
+
+Input: [3,1,2,4]
+Output: [2,4,3,1]
+The outputs [4,2,3,1], [2,4,1,3], and [4,2,1,3] would also
+'''
+
+
+
+
+
+class Solution:
+    def sortArrayByParity(self, A):
+        """
+        :type A: List[int]
+        :rtype: List[int]
+        """
+        
+        #method 1: create 2 separate list even and odd 
+        '''
+        even = []
+        odd = []
+        for x in A:
+            if x%2 == 1:
+                odd.append(x)
+            else:
+                even.append(x)
+        return(even+odd)
+        '''
+        #method 2: no extra space required, using 2 pointer, left_ptr for even and right_ptr for odd numbers  
+        left_ptr = 0
+        right_ptr = len(A) - 1
+        
+        while(left_ptr < right_ptr):
+            if(A[left_ptr]%2 == 0):
+                left_ptr += 1
+            elif(A[right_ptr]%2 == 1):
+                right_ptr -= 1
+            else:
+                A[left_ptr],A[right_ptr] = A[right_ptr],A[left_ptr]
+        return(A)
+                
