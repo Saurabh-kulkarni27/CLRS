@@ -1,5 +1,14 @@
 #insertion sort algorithm
 
+'''
+Application
+-- small array/list
+-- algorithm sorts elements in place
+
+Time Complexity: O(n*2)
+Auxiliary Space: O(1)
+'''
+
 def sort(listinput):
 
     '''
@@ -55,3 +64,5 @@ Output:
 [1, 2, 4, 4, 5, 6]
 -----------
 '''
+
+
