@@ -34,6 +34,7 @@ def main():
 main()
 
 '''
+code reference from: CLRS book
 sample input and its sorting method on each step:
 
 Input: [5,2,4,6,1,3]
