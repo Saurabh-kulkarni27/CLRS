@@ -10,9 +10,10 @@ Requirements for SDE role:(Contents from Cracking coding Interview Book)
 
 Sources to learn and practise:
 1) Bible : Introduction to Algorithm AKA CLRS 
-2) Cracking coding Inteview (most frequent interview questions)
+2) Cracking the coding Inteview [CTCI] (most frequent interview questions)
 3) Sites like Leetcode, GeeksForGeeks, Hackerank
 
 I will be updating this repository with problems related to topics mentioned above in Python language.
+All the problems are grouped together based on topics and problems with focus on solving CTCI book. 
 
 
