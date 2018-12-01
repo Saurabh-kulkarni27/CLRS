@@ -1,3 +1,8 @@
+'''
+Problem Statement: remove duplicates from an unsorted linked list
+'''
+
+
 class Node:
     def __init__(self,data):
         self.data = data     #intialize data
